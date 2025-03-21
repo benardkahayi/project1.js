@@ -1,6 +1,6 @@
 document.getElementById('get-weather').addEventListener('click', () => {
   const city = document.getElementById('city').value;
-  const apiKey = 'c1e7974e4f131437e2c228e5de8548b9'; // Replace with your OpenWeather API key
+  const apiKey = 'c1e7974e4f131437e2c228e5de8548b9'; 
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   fetch(apiUrl)
